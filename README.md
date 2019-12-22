@@ -1,3 +1,7 @@
+---
+typora-root-url: README_images
+---
+
 # open-falcon-line
 
 将open-falcon alarm组件的报警信息推送至line bot
@@ -30,7 +34,7 @@
 
 当前若需要获取群组id可以使用官方的line_bot_sdk创建一个api脚本 然后将机器人拉入群组内 发送任意消息查看群组ID
 
-![](D:\桌面\QQ截图20191222133145.png)
+![](/../README.assets/group_id.png)
 
 随后将群组ID填入seting.json内的"master_userID"字段即可推送报警测试
 
